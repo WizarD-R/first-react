@@ -1,0 +1,7 @@
+.card-img {
+    width: 350px;
+    height: 500px;
+
+    background-image: url('../../../../assets/img/pants/pants_1.png');
+    background-size: cover;
+}

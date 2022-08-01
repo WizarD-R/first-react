@@ -1,0 +1,13 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --main-purple: #5f176e;
+    --grey: #e0e0e0;
+    --main-grey: rgba(224, 223, 228, 0.24);
+    --description-text: #6B6B6B;
+    --beige: #e0e0e0;
+    --main: #2f3542;
+    --green: #00bfa5;
+    --gules: #f44336;
+    --overlay: rgba(0, 0, 0, 0.9)
+}

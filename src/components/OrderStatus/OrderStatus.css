@@ -1,0 +1,70 @@
+.status-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 166px);
+
+    background-image: url('../../assets/img/bg-order-status.png');
+    background-size: cover;
+}
+
+.status-wrapper {
+    background-color: var(--white);
+    border-radius: 4px;
+    padding: 30px 85px;
+    box-shadow: 0 0 4px 2px rgba(47, 53, 66, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.status-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.status-wrapper p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 130%;
+}
+
+.status-status-red {
+    color: var(--gules);
+}
+
+.status-status-green {
+    color: var(--green);
+}
+
+.status-btn {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 130%;
+    border: 1px solid var(--black);
+    background-color: var(--white);
+    color: var(--black);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    max-width: 200px;
+    cursor: pointer;
+    transition: all .1s;
+    align-self: flex-end;
+}
+
+.status-btn:hover {
+    background-color: var(--grey);
+}
+
+.status-btn:active {
+    background-color: var(--black);
+    color: var(--white);
+}

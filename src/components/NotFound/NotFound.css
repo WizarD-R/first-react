@@ -1,0 +1,17 @@
+.not-found-container {
+
+    width: 100%;
+    height: calc(100vh - 166px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 130px;
+
+    cursor: default;
+    user-select: none;
+}

@@ -1,0 +1,46 @@
+.start-block-container {
+    position: relative;
+    background-image: url('../../../../assets/img/bg-home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.start-block-title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 130%;
+    max-width: 750px;
+    text-align: center;
+}
+
+.start-block-description {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 130%;
+    max-width: 750px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .start-block-container {
+        gap: 20px;
+    }
+
+    .start-block-title {
+        font-size: 40px;
+        line-height: 130%;
+    }
+
+    .start-block-description {
+        font-size: 21px;
+        line-height: 130%;
+    }
+}
